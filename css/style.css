@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+body{
+	max-width: 1600px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color:#171717
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+/* Layout */
+.ba-container{
+	max-width: 1400px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-main {
+	box-shadow: 0 4px 68px rgba(0, 0, 0, 0.1);
+	margin: 130px 100px;
+	display: flex;
+	flex-direction: column;
+}
+.ba-container-main{
+	padding: 140px 140px 120px 120px;
+}
+.ba-title{
+	font-size: 42px;
+	margin-bottom: 15px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.ba-first-text{
+	margin-bottom: 40px;
+	opacity: 0.7;
+	line-height: 1.88;
+}
+.ba-first-text::first-letter{
+	font-size: 500%;
+	line-height: 1;
+	float: left;
+	font-family: serif;
+	margin-right: 10px;
+	opacity: 1;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: -0.09px;
+}
+.ba-second-text{
+	margin-bottom: 40px;
+	opacity: 0.7;
+	line-height: 1.88;
+	letter-spacing: -0.09px;
+}
+.ba-third-text{
+	font-style: italic;
+	font-size: 24px;
+	opacity: 0.7;
+	line-height: 1.88;
+	margin-bottom: 65px;
+	letter-spacing: -0.09px;
+}
+.ba-third-text::first-letter{
+	font-size: 300%;
+}
+.ba-discover{
+	margin-bottom: 120px;
+	color: #eaa258;
+	border: 2px solid #eaa258;
+	text-decoration: none;
+	padding: 27px 75px;
+	font-weight:700;
+	letter-spacing: 3.6px;
+}
